@@ -7,7 +7,7 @@ import org.junit.BeforeClass;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class CheckersMovementTest {
+public class CheckersTest {
     private static final String CHECKERS_URL = "https://www.gamesforthebrain.com/game/checkers/";
 
     private static WebDriver driver;

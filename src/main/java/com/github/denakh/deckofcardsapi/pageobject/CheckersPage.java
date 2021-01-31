@@ -30,7 +30,7 @@ public class CheckersPage {
         PageFactory.initElements(driver, this);
     }
 
-    public CheckersPage clickOnDraughtOnCell(WebElement cell) {
+    public CheckersPage clickOnDraught(WebElement cell) {
         for (int i = 1; i <= 5; i++) {
             cell.click();
             if (cell.getAttribute("src") != null && cell.getAttribute("src").contains("you2.gif")) return this;
