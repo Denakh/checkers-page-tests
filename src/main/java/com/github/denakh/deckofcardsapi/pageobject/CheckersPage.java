@@ -80,7 +80,7 @@ public class CheckersPage {
         return draughtOnCell;
     }
 
-    public WebElement moveCheckerForwardAndRight(WebElement draughtOnCell) {
+    public WebElement moveDraughtForwardAndRight(WebElement draughtOnCell) {
         String draughtCoordinateString = draughtOnCell.getAttribute("name");
         int draughtLineIndex = Integer.parseInt(draughtCoordinateString.substring(draughtCoordinateString.length() - 1));
         int draughtColumnIndex =
